@@ -40,7 +40,7 @@ namespace Example_Forms
             if(textBox1.Text == "cwittich" && textBox2.Text == "12345")
             {
                 this.Hide();
-                PITest l = new PITest(textBox1.Text, textBox2.Text);
+                LoggedIn l = new LoggedIn();
                 l.Show();
             }
             else
